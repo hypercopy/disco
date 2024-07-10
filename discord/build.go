@@ -27,7 +27,6 @@ func getLatestBuild() (string, error) {
 
 	matches := JS_FILE_REGEX.FindAllStringSubmatch(string(resp.Body()), -1)
 	if len(matches) == 0 {
-		fmt.Println("build number not found, falling back to 9999")
 		return "9999", nil
 	}
 	for _, match := range matches {
