@@ -1,4 +1,4 @@
-package selfcord
+package disco
 
 import (
 	"fmt"

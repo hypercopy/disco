@@ -1,4 +1,4 @@
-package selfcord
+package disco
 
 import (
 	"github.com/voidcopy/disco/discord"
